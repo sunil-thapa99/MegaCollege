@@ -1,0 +1,101 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ p{
+ 	font-size: 10px;
+ 	font-weight: bold;
+ }
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 height: 324px;
+	 width: 205px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Layer0 > img
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	  height: 100%;
+	 width: 100%; 
+	 z-index:1;
+} 
+
+ #idcard > img
+{ 
+	 position: absolute; 
+	 height: 100%;
+	 width: 100%; 
+	 z-index:2;
+} 
+
+ #Ellipse1 > img
+{ 
+	 left: 65px; 
+	 top: 58px; 
+	 position: absolute; 
+	 z-index:3;
+	 border-radius: 50%;
+} 
+
+ #Name > p
+{ 
+	 left: 20px; 
+	 top: 138px; 
+	 position: absolute; 
+	 z-index:4;
+} 
+
+ #Namecopy > p
+{ 
+	 left: 20px; 
+	 top: 155px; 
+	 position: absolute; 
+	 z-index:5;
+} 
+
+ #Namecopy2 > p
+{ 
+	 left: 20px; 
+	 top: 175px; 
+	 position: absolute; 
+	 z-index:6;
+} 
+
+ #Namecopy3 > p
+{ 
+	 left: 20px; 
+	 top: 195px; 
+	 position: absolute; 
+	 z-index:7;
+} 
+
+ #Namecopy4 > p
+{ 
+	 left: 20px; 
+	 top: 241px; 
+	 position: absolute; 
+	 font-size: 8px;
+	 z-index:8;
+}
+
+#location{
+	padding-left: 25px;
+}
+
+.row{
+	width: 240px;
+	margin: 20px auto;
+}
+button, a{
+	width: 30%;
+	margin-left: 2%;
+}

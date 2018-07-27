@@ -1,0 +1,152 @@
+img{
+	width: 115px;
+	height: 100px;
+}
+
+#image{
+	margin-bottom: 20px;	
+  display: none;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image:hover{
+	cursor: pointer;
+}
+#upload{
+	margin-bottom: 20px;
+}
+#text-image{
+	display: none;
+	padding-top: 40%;
+	padding-left: 15%;
+	font-size: 25px;
+	font-weight: bold;
+}
+#text-image:hover{
+	display: block;
+}
+
+
+.file-upload{
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.col-centered, .col-centered > button{
+    float: none;
+    margin: 0 auto;
+}
+
+.file-upload-btn, #snap {
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  border-radius: 4px;
+  transition: all .2s ease;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn{
+  margin-top: 20px !important;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input, #camera{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.file-upload-input{
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap{
+  margin-top: 20px;
+  position: relative;
+}
+
+.image-upload-wrap {
+  border: 4px dashed #b0b5af;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #b0b5af;
+  border: 4px dashed #ffffff;
+  transition: all 1s ease;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #615e5e;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
